@@ -46,3 +46,9 @@ main {
 .toast-hidden {
   opacity: 0;
 }
+
+#copyBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
