@@ -25,7 +25,7 @@ function handleCopy() {
     setTimeout(() => {
       copyBtn.textContent = originalText;
       copyBtn.disabled = false;
-    }, 1500);
+    }, 500);
   });
 }
 
